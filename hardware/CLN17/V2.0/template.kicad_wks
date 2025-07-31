@@ -1,0 +1,167 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "8.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start 105.489 19.0022)
+		(end 2 2.0002)
+		(comment "rect around the title block")
+	)
+	(rect
+		(name "")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "")
+		(start 50 2 ltcorner)
+		(end 50 0 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 50 2 lbcorner)
+		(end 50 0 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 0 50 ltcorner)
+		(end 2 50 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "")
+		(start 0 50 rtcorner)
+		(end 2 50 rtcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 rtcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "")
+		(start 105.489 5.5022)
+		(end 2 5.5002)
+	)
+	(line
+		(name "")
+		(start 105.489 10.5022)
+		(end 2 10.5002)
+	)
+	(tbtext "Rev: ${REVISION}"
+		(name "")
+		(pos 24 7.9002)
+		(font bold)
+	)
+	(tbtext "Id: ${#}/${##}"
+		(name "")
+		(pos 24 4.1)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 105.489 14.5022)
+		(end 2 14.5002)
+	)
+	(tbtext "Title: ${TITLE}"
+		(name "")
+		(pos 104.5 16.7002)
+		(font
+			(size 2 2) bold italic)
+	)
+	(tbtext "${COMMENT1}"
+		(name "")
+		(pos 104.5 12.5002)
+		(comment "Comment 0")
+	)
+	(tbtext "${COMMENT2}"
+		(name "")
+		(pos 81.5 8.0002)
+		(comment "Comment 1")
+	)
+	(line
+		(name "")
+		(start 25.989 10.5022)
+		(end 26 2.0002)
+	)
+	(tbtext "Designed by\nAnton Khrustalev"
+		(name "")
+		(pos 104.489 8.0022)
+		(comment "Paper format name")
+	)
+	(line
+		(name "")
+		(start 82.489 10.5022)
+		(end 82.489 5.5022)
+	)
+	(line
+		(name "")
+		(start 62.989 5.5022)
+		(end 62.989 2.0022)
+	)
+	(tbtext "Date: ${ISSUE_DATE}"
+		(name "")
+		(pos 62.489 3.5022)
+	)
+	(tbtext "File: ${FILENAME}"
+		(name "")
+		(pos 104.489 3.5022)
+	)
+	(tbtext "File: ${FILENAME}"
+		(name "")
+		(pos 104.489 3.5022)
+	)
+)
