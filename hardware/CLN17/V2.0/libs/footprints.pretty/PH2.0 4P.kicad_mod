@@ -320,13 +320,13 @@
 	)
 	(model "${KIPRJMOD}/libs/models.3dshapes/TE_440055_4.stp"
 		(offset
-			(xyz 0 3.75 2.5)
+			(xyz 0 0.8 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 180)
+			(xyz 0 0 180)
 		)
 	)
 )
