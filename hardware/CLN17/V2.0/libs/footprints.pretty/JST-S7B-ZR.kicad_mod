@@ -1,0 +1,229 @@
+(footprint "JST-S7B-ZR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "JST EH series connector, S7B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
+	(tags "connector JST EH horizontal")
+	(property "Reference" "REF**"
+		(at 5.5 -5.6 0)
+		(layer "F.SilkS")
+		(uuid "16a1551d-fa5b-4969-a2f6-492ee8624477")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JST-S7B-ZR"
+		(at 3.4 3.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "062370ef-785a-4871-91a5-d674baec377e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d30594f-4a92-4e41-b3dc-c3e02f57d3bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "532617ad-e3b6-482a-9774-ae124e5f7ee3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb3914f5-5dff-412a-b11f-7ff029698dd5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.5 -4.6)
+		(end 10.5 -4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eccf9db1-c7a2-4b8f-81df-2c5d882872fd")
+	)
+	(fp_line
+		(start -1.5 1.4)
+		(end -1.5 -4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fe9402f-4f8f-4755-a4d8-a261c0d8e972")
+	)
+	(fp_line
+		(start -0.7 1.4)
+		(end -1.5 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0acab480-38b3-4a41-b8f7-68832b65902e")
+	)
+	(fp_line
+		(start 10.5 -4.6)
+		(end 10.5 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "618a956f-8c31-4d31-932f-09fd1fc07459")
+	)
+	(fp_line
+		(start 10.5 1.4)
+		(end 9.7 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3f303fa-5155-4410-9506-cf97ae65f919")
+	)
+	(fp_line
+		(start -1.5 -4.6)
+		(end -1.5 0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "afeb7cd8-8a63-463f-8d6d-c3b0ced168f4")
+	)
+	(fp_line
+		(start -1.5 0.8)
+		(end 10.5 0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a39440b0-de93-48e7-ba2f-eeb07f93a284")
+	)
+	(fp_line
+		(start 10.5 -4.6)
+		(end -1.5 -4.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d6550db6-42d5-4b40-8f6f-b3ee2aff469a")
+	)
+	(fp_line
+		(start 10.5 0.8)
+		(end 10.5 -4.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5e5517a-ab9f-49cd-a8f5-dcbce367603f")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.147059)
+		(uuid "7dd2cad6-28f5-454b-97f4-3ff00771795c")
+	)
+	(pad "2" thru_hole oval
+		(at 1.5 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9cb1e0a9-0aab-4544-98ac-63a240ba93c7")
+	)
+	(pad "3" thru_hole oval
+		(at 3 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c76d5e60-66eb-4cc8-8745-6548335c1a52")
+	)
+	(pad "4" thru_hole oval
+		(at 4.5 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3a09e01d-2665-428c-8af6-e41f4df788d6")
+	)
+	(pad "5" thru_hole oval
+		(at 6 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "630dfe6f-511f-431d-a836-244afc90a5d3")
+	)
+	(pad "6" thru_hole oval
+		(at 7.5 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7c537b87-85fa-4004-8eba-60fa6dd2057e")
+	)
+	(pad "7" thru_hole oval
+		(at 9 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "91550ca6-2fa3-46a7-a0e2-72f1ddb56ffb")
+	)
+	(model "${KIPRJMOD}/libs/models.3dshapes/S7B-ZR.step"
+		(offset
+			(xyz 4.5 2.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

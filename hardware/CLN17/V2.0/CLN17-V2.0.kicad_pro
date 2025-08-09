@@ -100,6 +100,7 @@
         "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -581,7 +582,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "CLN17-V2.0-3D.STEP",
+      "step": "../../../../../../Users/Anton/Downloads/CLN17-V2.0-3D.STEP",
       "svg": "",
       "vrml": ""
     },

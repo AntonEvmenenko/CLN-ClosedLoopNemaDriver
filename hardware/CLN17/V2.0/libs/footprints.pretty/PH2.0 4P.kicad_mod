@@ -318,7 +318,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${KIPRJMOD}/libs/models.3dshapes/TE_440055_4.stp"
+	(model "${KIPRJMOD}/libs/models.3dshapes/TE_440055_4.step"
 		(offset
 			(xyz 0 0.8 0)
 		)
